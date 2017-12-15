@@ -31,7 +31,7 @@ static void gcs_send_heartbeat(void)
 static void gcs_send_sys(void)
 {
 
-    gcs_send_message(MSG_SYSTEM_TIME);
+    //gcs_send_message(MSG_SYSTEM_TIME);
     gcs_send_message( MSG_LOCATION);
     
 }
